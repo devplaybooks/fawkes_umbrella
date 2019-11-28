@@ -5,7 +5,14 @@ defmodule Fawkes.Umbrella.MixProject do
     [
       apps_path: "apps",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      aliases: aliases(),
+      deps: deps(),
+      test_coverage: [tool: ExCoveralls],
+      preferred_cli_env: [
+        coveralls: :test,
+        "coveralls.detail": :test,
+        "coveralls.post": :test,
+        "coveralls.html": :test]
     ]
   end
 
@@ -22,6 +29,12 @@ defmodule Fawkes.Umbrella.MixProject do
   # Dependencies listed here are available only for this project
   # and cannot be accessed from applications inside the apps folder
   defp deps do
+    [
+      {:excoveralls, "~> 0.12.1", only: [:test, :dev]}
+    ]
+  end
+
+  defp aliases do
     []
   end
 end

@@ -6,4 +6,4 @@ addons:
 env:
   - MIX_ENV=test
 script: # run the tests:
-  - mix cover
+  - mix coveralls
