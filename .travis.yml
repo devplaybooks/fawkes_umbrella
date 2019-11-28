@@ -3,10 +3,7 @@ elixir:
   - '1.9.4'
 addons:
   postgresql: "11.2"
-services:
-  - postgresql
-before_script:
-  - cp config/travis.exs config/test.exs
-  - mix ecto.create
-script:
-  - mix test
+env:
+  - MIX_ENV=test
+script: # run the tests:
+  - mix cover
