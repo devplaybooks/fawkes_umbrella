@@ -30,6 +30,7 @@ defmodule Fawkes.Umbrella.MixProject do
   # and cannot be accessed from applications inside the apps folder
   defp deps do
     [
+      {:distillery, "~> 2.1"},
       {:excoveralls, "~> 0.12.1", only: [:test, :dev]}
     ]
   end

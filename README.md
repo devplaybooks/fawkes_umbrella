@@ -1,6 +1,6 @@
 # Fawkes.Umbrella
 
-[![Build Status](https://travis-ci.com/folkengine/fawkes.svg?branch=master)](https://travis-ci.com/folkengine/fawkes)
+[![Build Status](https://travis-ci.com/folkengine/fawkes_umbrella.svg?branch=master)](https://travis-ci.com/folkengine/fawkes_umbrella)
 
 To start your Phoenix server:
 

@@ -13,6 +13,8 @@ config :fawkes_web, FawkesWeb.Endpoint,
   url: [host: "example.com", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json"
 
+config :fawkes_web,
+
 # ## SSL Support
 #
 # To get SSL working, you will need to add the `https` key
