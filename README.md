@@ -1,6 +1,6 @@
 # Fawkes.Umbrella
 
-[![Build Status](https://travis-ci.com/folkengine/fawkes.svg?branch=master)](https://travis-ci.com/folkengine/fawkes)
+[![Build Status](https://travis-ci.com/folkengine/fawkes_umbrella.svg?branch=master)](https://travis-ci.com/folkengine/fawkes_umbrella)
 
 To start your Phoenix server:
 
@@ -8,6 +8,7 @@ To start your Phoenix server:
   * Create and migrate your database with `mix ecto.setup`
   * Install Node.js dependencies with `cd assets && npm install`
   * Start Phoenix endpoint with `mix phx.server`
+  * You can also run your app inside IEx (Interactive Elixir) as: `iex -S mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
